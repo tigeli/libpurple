@@ -14,7 +14,7 @@ Release:    1
 Group:      Applications/Communications
 License:    GPLv2+ and GPLv2 and MIT
 URL:        http://pidgin.im/
-Source0:    http://downloads.sourceforge.net/project/pidgin/Pidgin/%{version}/pidgin-%{version}.tar.bz2
+Source0:    %{name}-%{version}.tar.bz2
 Source100:  libpurple.yaml
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
