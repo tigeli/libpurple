@@ -53,7 +53,7 @@ instant messaging clients or plugins for any libpurple based client.
 
 
 %prep
-%setup -q -n pidgin-%{version}
+%setup -q -n %{name}-%{version}/%{name}
 
 # >> setup
 # << setup
