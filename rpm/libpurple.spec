@@ -1,7 +1,7 @@
 Name:       libpurple
 
 Summary:    libpurple library for IM clients like Pidgin and Finch
-Version:    2.10.9
+Version:    2.10.11
 Release:    1
 Group:      Applications/Communications
 License:    GPLv2+ and GPLv2 and MIT
