@@ -13,7 +13,6 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(libidn)
 BuildRequires:  pkgconfig(dbus-glib-1)
-BuildRequires:  pkgconfig(gnutls)
 BuildRequires:  pkgconfig(nss)
 BuildRequires:  pkgconfig(gstreamer-0.10)
 BuildRequires:  pkgconfig(farstream-0.1)
@@ -58,7 +57,8 @@ instant messaging clients or plugins for any libpurple based client.
     --disable-perl \
     --disable-tcl \
     --disable-meanwhile \
-    --disable-gestures
+    --disable-gestures \
+    --disable-gnutls
 
 make %{?_smp_mflags}
 
